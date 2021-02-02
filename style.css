@@ -1,0 +1,231 @@
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.uvod {
+    height: 80vh;
+    text-align: left;
+    background-image: url('img/wallpaper.jpg');
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+}
+
+.uvod-tekst {
+    margin-top: 10%;
+    margin-left: 10%;
+    color: #fdb827;
+
+}
+
+.uvod-tekst h1 {
+    font-size: 75px;
+}
+
+.test {
+    margin: 0;
+}
+
+.sranje {
+    display: inline;
+}
+
+.drugi {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rezultati ul li {
+    display: inline;
+}
+
+.igraci {
+    background-color: #542583;
+    /* background-color: rgba(85, 37, 130, 0.9); */
+    color: #fdb827;
+    text-align: center;
+}
+
+.igraci h1,
+.igraci h6 {
+    padding-top: 20px;
+}
+
+.igrac1 img {
+    height: 250px;
+    border-radius: 10%;
+}
+
+
+.igraci-dugme {
+    margin-top: 10px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.dugme {
+    /* background-color: #fdb827; */
+    background-color: #542583;
+
+    border: 0;
+    /* color: #542583; */
+    color: #fdb827;
+
+    padding: 20px 10px 20px 10px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.dugme:hover {
+    /* background-color: #542583; */
+    background-color: #fdb827;
+
+    /* color: #fdb827; */
+    color: #542583;
+
+}
+
+.dugme:focus {
+    background-color: #fdb827;
+
+    color: #542583;
+
+}
+
+.tabela {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fdb827;
+}
+
+.tabela h6,
+.tabela h1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #fdb827;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+tr {
+    background-color: white;
+}
+
+.th-team {
+    text-align: left;
+}
+
+.shop {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #542583;
+    color: white;
+}
+
+.shop1 img {
+    height: 250px;
+}
+
+footer {
+    background-color: #dedede;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.mail-input-footer {
+    color: #b7b7b7;
+    border-color: #262F3E;
+    background-color: #ffffff;
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0px;
+
+    vertical-align: top;
+    box-sizing: border-box;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    padding: 0 10em 0 2.2em;
+    outline: 0;
+    transition: all 0.25s ease-in-out;
+}
+
+.mail-button-footer {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 18px;
+    text-decoration: none;
+
+
+    z-index: 1;
+    height: 50px;
+    min-width: 9.5em;
+    vertical-align: top;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 30px;
+    text-align: center;
+
+    background-color: #262F3E;
+    color: #848992;
+    float: right;
+    position: absolute;
+    right: 15px;
+    border: 0;
+}
+
+.mail-input-footer:focus {
+    background-color: #262F3E;
+}
+
+footer {
+    background-color: #fdb827;
+}
+
+footer .row {
+    padding-top: 30px;
+}
+
+.footer-menu {
+    float: left;
+    list-style: none;
+}
+
+.footer-menu li {
+    display: inline;
+    margin-left: 30px;
+    color: #262F3E;
+}
+
+a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #262F3E;
+}
+
+.footer-menu li a:hover {
+    color: #542583;
+    text-decoration: none;
+}
