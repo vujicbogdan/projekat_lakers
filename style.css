@@ -1,6 +1,27 @@
+body {
+    scroll-behavior: smooth;
+}
+
 ul {
     padding: 0;
     margin: 0;
+}
+
+.navbar {
+    background-color: #542583 !important;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fdb827 !important;
+}
+
+.nav-right {
+    justify-content: flex-end;
+}
+
+.nav-link:hover {
+    opacity: 0.8;
 }
 
 .uvod {
@@ -29,17 +50,30 @@ ul {
     margin: 0;
 }
 
-.sranje {
-    display: inline;
-}
-
 .drugi {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fdb827;
+    text-align: center;
 }
 
-.rezultati ul li {
+.rezultati li {
     display: inline;
+    margin-right: 30px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.rezultati img {
+    /* height: 150px; */
+    width: 200px;
+}
+
+.rezultati {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .igraci {
@@ -140,6 +174,11 @@ tr {
     height: 250px;
 }
 
+.card-title,
+.card-text {
+    color: #542583;
+}
+
 footer {
     background-color: #dedede;
     padding-top: 20px;
@@ -228,4 +267,40 @@ a {
 .footer-menu li a:hover {
     color: #542583;
     text-decoration: none;
+}
+
+#na-pocetak {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    background-color: #262F3E;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 50%;
+}
+
+#na-pocetak:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.display-show,
+.display-hidden,
+.display-show1,
+.display-hidden1,
+.display-show2,
+.display-hidden2,
+.display-show3,
+.display-hidden3 {
+    cursor: pointer;
+}
+
+.display-hidden,
+.display-hidden1,
+.display-hidden2,
+.display-hidden3 {
+    display: none;
 }

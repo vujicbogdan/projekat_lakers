@@ -8,21 +8,32 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/b76f6be7b5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Bustrap sajt</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <a class="navbar-brand" href="#">Logo</a>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark" id="pocetak">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/pozadina2.png" alt="" style="width: 100px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-right" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <div class="container-fluid test">
         <div class="row">
@@ -35,7 +46,84 @@
         </div>
     </div>
     <div class="container-fluid drugi">
-        <div class="row">
+        <h6>RESULTS</h6>
+        <h1>THE LAST GAME</h1>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <ul class="rezultati">
+                        <li>
+                            <img src="img/atlanta3.png" alt="">
+                        </li>
+                        <li>
+                            <h1>99-107</h1>
+                        </li>
+                        <li>
+                            <img src="img/pozadina2.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="carousel-item">
+                    <ul class="rezultati">
+                        <li>
+                            <img src="img/boston3.png" alt="">
+                        </li>
+                        <li>
+                            <h1>95-95</h1>
+                        </li>
+                        <li>
+                            <img src="img/pozadina2.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="carousel-item">
+                    <ul class="rezultati">
+                        <li>
+                            <img src="img/detroit2.png" alt="">
+                        </li>
+                        <li>
+                            <h1>107-92</h1>
+                        </li>
+                        <li>
+                            <img src="img/pozadina2.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="carousel-item">
+                    <ul class="rezultati">
+                        <li>
+                            <img src="img/phila2.png" alt="">
+                        </li>
+                        <li>
+                            <h1>107-106</h1>
+                        </li>
+                        <li>
+                            <img src="img/pozadina2.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev " href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <!-- <div class="row">
             <div class="col-3 rezultati">
                 <ul>
                     <li>
@@ -79,7 +167,7 @@
                 <h3>Results</h3>
                 <h2>THE LAST GAME</h2>
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="container-fluid igraci">
         <h6>SQUAD</h6>
@@ -194,24 +282,68 @@
         <div class="container">
             <div class="row">
                 <div class="col shop1">
-                    <img src="img/shop1.jpg" alt="">
-                    <h6>Point Guard</h6>
-                    <h3>Alex Caruso</h3>
+                    <div class="card">
+                        <div class="display-show1">
+                            <img class="card-img-top" src="img/dres.png" alt="Card image">
+                        </div>
+                        <div class="display-hidden1">
+                            <img class="card-img-top" src="img/dres2.png" alt="Card image">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Jersays</h4>
+                            <p class="card-text">Los Angeles Lakers LeBron James 2019-20 Icon Edition Swingman Jersey
+                            </p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col shop1">
-                    <img src="img/shop1.jpg" alt="">
-                    <h6>Point Guard</h6>
-                    <h3>Alex Caruso</h3>
+                    <div class="card">
+                        <div class="display-show2">
+                            <img class="card-img-top" src="img/duks.png" alt="Card image">
+                        </div>
+                        <div class="display-hidden2">
+                            <img class="card-img-top" src="img/duks2.png" alt="Card image">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Hoodies</h4>
+                            <p class="card-text">Los Angeles Lakers City Edition Yellow (Gold) Logo Hoody
+                            </p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col shop1">
-                    <img src="img/shop1.jpg" alt="">
-                    <h6>Point Guard</h6>
-                    <h3>Alex Caruso</h3>
+                    <div class="card">
+                        <div class="display-show">
+                            <img class="card-img-top" src="img/majica.png" alt="Card image">
+                        </div>
+                        <div class="display-hidden">
+                            <img class="card-img-top" src="img/majica2.png" alt="Card image">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Shirts</h4>
+                            <p class="card-text">Los Angeles Lakers 2020 NBA Champions Ready To Play Roster T-Shirt
+                            </p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col shop1">
-                    <img src="img/shop1.jpg" alt="">
-                    <h6>Point Guard</h6>
-                    <h3>Alex Caruso</h3>
+                    <div class="card">
+                        <div class="display-show3">
+                            <img class="card-img-top" src="img/kapa.png" alt="Card image">
+                        </div>
+                        <div class="display-hidden3">
+                            <img class="card-img-top" src="img/kapa2.png" alt="Card image">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Accessories</h4>
+                            <p class="card-text">Los Angeles Lakers 2020 NBA Champions 9FIFTY Side Patch Snapback Cap
+                            </p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -242,7 +374,7 @@
                     <li><a href="">HOME</a></li>
                     <li><a href="">TEAM</a></li>
                     <li><a href="">GALLERY</a></li>
-                    <li><a href="">TEAM</a></li>
+                    <li><a href="">SHOP</a></li>
                 </ul>
             </div>
             <div class="col-3">
@@ -250,6 +382,12 @@
             </div>
         </div>
     </footer>
+    <a id="na-pocetak" href="#pocetak">
+        <div>
+            <i class="fas fa-angle-up"></i>
+        </div>
+    </a>
+    <script src="main.js"></script>
 </body>
 
 </html>
