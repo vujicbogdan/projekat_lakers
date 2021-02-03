@@ -308,7 +308,7 @@ a {
 /* TEAM */
 .uvod-team {
     background-color: black;
-    background-image: url('img/team2.PNG');
+    background-image: url('img/team2.PNG') !important;
     background-position: center;
 }
 
