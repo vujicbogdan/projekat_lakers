@@ -304,3 +304,44 @@ a {
 .display-hidden3 {
     display: none;
 }
+
+/* TEAM */
+.uvod-team {
+    background-color: black;
+    background-image: url('img/team2.PNG');
+    background-position: center;
+}
+
+.team-next-game {
+    text-align: center;
+    background-color: #542583;
+    color: #fdb827;
+    padding-top: 20px;
+}
+
+#timer {
+    font-size: 50px;
+}
+
+.tabela-games {
+    border-bottom: 5px solid #542583;
+}
+
+/* GALLERY */
+.gallery-slider {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fdb827;
+}
+
+.vegas-slider {
+    display: flex;
+    justify-content: center;
+}
+
+#vegas-slider {
+    width: 60%;
+    height: 60vh;
+    /* margin-top: 20px; */
+}
