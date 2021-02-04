@@ -456,18 +456,24 @@ a {
     }
 
     .mail-input-footer {
-        width: 50%;
+        width: 40%;
     }
 
     .footer-row {
         flex-direction: column;
     }
 
-    .footer-dugme-email {}
 
     .mail-button-footer {
-        min-width: 20%;
+        min-width: 30%;
+        position: relative;
         right: 0;
+    }
+
+    .forma-dugme {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
     }
 
     .shop1 {
