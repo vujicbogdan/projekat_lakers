@@ -456,7 +456,7 @@ a {
     }
 
     .mail-input-footer {
-        width: 40%;
+        width: 80%;
     }
 
     .footer-row {
@@ -470,6 +470,8 @@ a {
         margin-top: 10px;
         right: 0;
     }
+
+
 
     .forma-dugme {
         display: flex;
