@@ -9,6 +9,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/b76f6be7b5.js" crossorigin="anonymous"></script>
+    <script src="vegas/vegas.min.js"></script>
+    <link rel="stylesheet" href="vegas/vegas.min.css">
+    <script src="http://zeptojs.com/zepto.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>LA Lakers</title>
 </head>
@@ -40,7 +43,11 @@
     </nav>
     <div class="container-fluid test">
         <div class="row">
-            <div class="col uvod uvod-team">
+            <div class="col uvod uvod-team uvod-team-games">
+                <div class="col vegas-slider2">
+                    <div id="vegas-slider2">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -123,7 +130,9 @@
     <div class="container-fluid team-next-game">
         <h6>NEXT GAME</h6>
         <h1>TIME UNTIL THE NEXT GAME</h1>
-        <p id="timer"></p>
+        <b>
+            <p id="timer"></p>
+        </b>
         <ul class="rezultati">
             <li>
                 <img src="img/pozadina2.png" alt="">
