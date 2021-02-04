@@ -324,10 +324,14 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("img/slika.jpg") !important;
+  background-image: url("img/wallpaper.jpg") !important;
   background-position: center;
   width: 80%;
   padding: 0;
+}
+
+.uvod-team-games {
+  height: 60vh;
 }
 
 .team-next-game {
