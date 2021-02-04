@@ -465,15 +465,17 @@ a {
 
 
     .mail-button-footer {
-        min-width: 30%;
+        width: 30%;
         position: relative;
         right: 0;
     }
 
     .forma-dugme {
         display: flex;
-        justify-content: flex-start;
-        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
     }
 
     .shop1 {
