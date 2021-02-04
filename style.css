@@ -214,8 +214,6 @@ footer {
     font-style: normal;
     line-height: 18px;
     text-decoration: none;
-
-
     z-index: 1;
     height: 50px;
     min-width: 9.5em;
@@ -226,7 +224,6 @@ footer {
     padding-bottom: 0;
     border-radius: 30px;
     text-align: center;
-
     background-color: #262F3E;
     color: #848992;
     float: right;
@@ -458,7 +455,20 @@ a {
         flex-direction: column;
     }
 
+    .mail-input-footer {
+        width: 50%;
+    }
 
+    .footer-row {
+        flex-direction: column;
+    }
+
+    .footer-dugme-email {}
+
+    .mail-button-footer {
+        min-width: 20%;
+        right: 0;
+    }
 
     .shop1 {
         margin-top: 10px;
@@ -479,7 +489,11 @@ a {
     }
 
     #vegas-slider {
-        width: 80%;
+        width: 100%;
+    }
+
+    .vegas-slider {
+        padding: 0;
     }
 
     /* Place the timelime to the left */
