@@ -478,6 +478,10 @@ a {
         height: auto;
     }
 
+    #vegas-slider {
+        width: 80%;
+    }
+
     /* Place the timelime to the left */
     .timeline::after {
         left: 31px;
