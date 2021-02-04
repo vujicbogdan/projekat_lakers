@@ -467,6 +467,7 @@ a {
     .mail-button-footer {
         width: 30%;
         position: relative;
+        margin-top: 10px;
         right: 0;
     }
 
